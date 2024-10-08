@@ -1,0 +1,88 @@
+:where(:not(iframe,canvas,img,svg,video):not(svg *)){all:unset;display:revert}*,::after,::before{box-sizing:border-box}ol,ul{list-style:none}img{max-width:100%}table{border-collapse:collapse}textarea{white-space:revert}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}* html .clearfix{height:1%}.clearfix{display:block}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{font-family: "Poppins";}
+a{cursor: pointer;}
+
+.primarycolor{background: #03045e;}
+.secondarybtncolor{background: #caf0f8;}
+.secondarytextcolor{color: #7c7c7c;}
+.secondarycolor{background: #eefafd;}
+p,span{color: #03045e;}
+h2{font-weight: 800;font-size: 4rem;text-transform: capitalize;line-height: 1;color: #03045e;}
+h3{font-size: 2.4rem;text-transform: capitalize;color: #03045e;font-weight: 700;line-height: 1.1em;margin-bottom: 1em;}
+h4{font-size: 1.3rem;text-transform: capitalize;color: #03045e;font-weight: 700;margin-bottom: 1em;}
+.floatleft{float: left;}
+.floatright{float: right;}
+.textalinecenter{text-align: center;}
+.col-50{width: 50%;}
+.col-40{width: 40%;}
+.col-60{width: 60%;}
+.col-33{width: 33.33%;}
+
+#wrapper{max-width:80em; margin: 0 auto;width: 100%;}
+
+
+
+/* navigation */
+#header{position: sticky;top: 0;}
+.logo{width: 23em;}
+.navilinks ul li, .login ul li{float: left;font-weight: 600;color: #03045e;}
+.headerarea{padding: 2.9em 2em;}
+.navilinks ul li {margin: 0 1.1em;}
+.login ul li{margin: 0 0.8em;}
+.signup{padding: 1em 2em;border-radius: 0.7em;}
+.navilinks ul li a:hover, .login ul li a:hover{color: #208297;}
+.section{margin-bottom: 3.8em;}
+
+
+
+/* hero */
+.hero{padding: 2.9em 2em;}
+.CTAarea {padding-right: 8em;}
+.CTAarea h2{margin-bottom: 0.6em;}
+.CTAarea p{font-size: 1.2rem;margin-bottom: 3em;}
+.explorebtn{color: white;}
+.ourappbtn{color: #03045e;}
+.btn{padding: 1.1em 3.2em;border-radius: 0.5em;font-weight: 600;font-size: 1.3rem;display: inline-block;margin-right: 1em;}
+.btn:hover{background: white;color: black;}
+
+
+/* subsection */
+.subimage{padding: 3em;border-radius: 2em;}
+.subsection p{font-size: 1.1rem;}
+
+
+
+
+/* ourservices */
+.ourservices{padding: 2.9em 2em;}
+.servicesarea {padding-left: 2em;}
+.boxarea{padding: 2.3em;margin-right: 2.5em;}
+.box:last-child.boxarea{margin-right: 0;}
+.boxarea p{font-size: 1.1rem;min-height: 10em;}
+.boxarea a:hover{color: #208297;}
+
+/* testimonial */
+.testimonialarea{margin-bottom: 6em;}
+.testimonial{padding: 2.9em 2em;}
+.usersection{box-shadow: 2px 3px 14px 0px #d1d1d1;padding: 2.2em;}
+.usersection-l{margin-right: 2em;}
+.name{font-size: 1.5rem;}
+.location{margin-bottom: 3em;}
+
+
+/* ctasection */
+.marketingarea{padding: 2.9em 2em;}
+.marketingarea h2{margin-bottom: 1em;}
+
+/* footer */
+.footerlinkarea p{font-weight: 700;margin-bottom: 1em;}
+.linkarea li{margin-right: 3.4em;margin-bottom: 1em;}
+.linkarea ul{margin-left: 1em;}
+form{border-radius: 1em;border: 1px solid #caf0f8;padding: 1em;margin-right: 4em;margin-top: 0.5em;}
+.emailcls{width: 17em;}
+.submitcls{background: #caf0f8;padding: 0.8em 2em;border-radius: 0.6em;color: #03045e;cursor: pointer;}
+
+/* socials */
+.socials{padding: 3em 0em;}
+.rightsarea{text-align: right;}
